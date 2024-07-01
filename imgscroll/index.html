@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #img1
+    {
+        height: 200px;
+        width: 200px;
+        top: 50%;
+        left: 50%;
+        border-radius: 50%;
+        position: absolute;
+         transform: translate(-50%,-50%);
+    }
+   #btn
+   {
+    float: left;
+    margin-top: 300px;
+   }
+   #btn2
+   {
+    float: right;
+    margin-top: 300px;
+   }
+   #mybtn
+   {
+    height: 600px;
+    width: 100%;
+    display: flex;
+   }
+   /* #btn
+   {
+    height: 600px;
+    width: 50%;
+   }
+   #btn2
+   {
+    height: 600px;
+    width: 50%;
+   } */
+</style>
+</head>
+<body>
+   <input type="button" id="btn" onclick="mov_image('left')" value="left ">
+   <input type="button" id="btn2"  onclick="mov_image('right')"  value="right">
+<!-- <div id="mybtn">
+    
+   <div id="btn"></div>
+   <div id="btn2"></div>
+</div> -->
+
+   <img src="https://th.bing.com/th/id/OIP.KcDDuxChxKbp_rS4wGGkNwHaEK?w=280&h=180&c=7&r=0&o=5&pid=1.7" alt="" id="img1">
+ 
+    <script src="script.js">   </script>
+</body>
+</html>
